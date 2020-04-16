@@ -59,6 +59,9 @@ flutter:
     - family: Gilroy
       fonts:
         - asset: assets/fonts/Gilroy-ExtraBold.otf
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Medium.ttf
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf
