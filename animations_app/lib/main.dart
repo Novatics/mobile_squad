@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'components/animatedContainer.dart';
+// import 'components/animatedContainer.dart';
+import 'components/glitterAnimation.dart';
 
 void main() => runApp(MyApp());
 
@@ -28,14 +29,7 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text(this.title),
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            AnimationContainerExample(),
-          ],
-        ),
-      ),
+      body: GlitterAnimation(),
     );
   }
 }
